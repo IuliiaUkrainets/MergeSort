@@ -32,7 +32,7 @@ public class Main {
         int j = middle + 1;
         int k = lowerIndex;
         while (i <= middle && j <= higherIndex) {
-            if (temp[i].compareTo(temp[j])>0) {
+            if (temp[i].compareTo(temp[j])<0) {
                 list[k] = temp[i];
                 i++;
             } else {
